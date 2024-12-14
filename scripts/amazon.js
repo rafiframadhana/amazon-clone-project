@@ -1,5 +1,5 @@
-import { addToCartMainPage, updateCartQuantity } from '../data/cart.js';
-import { products, loadProductsFetch } from '../data/products.js';
+import { addToCartMainPage, updateCartQuantity } from 'data/cart.js';
+import { products, loadProductsFetch } from 'data/products.js';
 
 async function renderProductsGrid() {
   await loadProductsFetch();
